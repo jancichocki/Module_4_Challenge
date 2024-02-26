@@ -1,5 +1,9 @@
 # Portfolio Performance Analysis: A Comprehensive Study
 
+### Main Programming File: [Whale Analysis Notebook](https://github.com/jancichocki/Module_4_Challenge/blob/main/whale_analysis.ipynb)
+
+This Jupyter notebook contains the main code for the Whale Analysis project, encompassing data analysis, visualization, and performance evaluation of investment portfolios.
+
 ## Introduction
 
 Welcome to the Portfolio Performance Analysis project repository! This project entails a thorough examination of various investment portfolios, encompassing those managed by prominent investors, hedge funds, and algorithmic strategies, juxtaposed against the S&P 500 Index. This document provides a detailed guide on navigating the repository and comprehending the analysis conducted.
