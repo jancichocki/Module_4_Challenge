@@ -1,0 +1,168 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "totalSupply",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "voter",
+                "type": "address"
+            },
+            {
+                "name": "proposalTitle",
+                "type": "string"
+            },
+            {
+                "name": "proposalDescription",
+                "type": "string"
+            }
+        ],
+        "name": "mintVotingToken",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "tokenId",
+                "type": "uint256"
+            },
+            {
+                "name": "delegate",
+                "type": "address"
+            }
+        ],
+        "name": "delegateVote",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "ownerOf",
+        "outputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "getProposalDetails",
+        "outputs": [
+            {
+                "name": "proposalId",
+                "type": "uint256"
+            },
+            {
+                "name": "proposalTitle",
+                "type": "string"
+            },
+            {
+                "name": "proposalDescription",
+                "type": "string"
+            },
+            {
+                "name": "proposalAuthor",
+                "type": "address"
+            },
+            {
+                "name": "proposalTimestamp",
+                "type": "uint256"
+            },
+            {
+                "name": "proposalStatus",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "tokenId",
+                "type": "uint256"
+            },
+            {
+                "name": "voteChoice",
+                "type": "string"
+            }
+        ],
+        "name": "castVote",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "getVoteDetails",
+        "outputs": [
+            {
+                "name": "voteId",
+                "type": "uint256"
+            },
+            {
+                "name": "voterAddress",
+                "type": "address"
+            },
+            {
+                "name": "voteTimestamp",
+                "type": "uint256"
+            },
+            {
+                "name": "voteChoice",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
